@@ -5,6 +5,8 @@ Plataforms:
   https://ead.inf.ufg.br/course/index.php?categoryid=9
   
   https://sharif.inf.ufg.br/plinio
+  
+  http://codeforces.com/
 
 Useful links:
   
