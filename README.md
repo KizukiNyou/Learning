@@ -12,4 +12,6 @@ Useful links:
   
   https://gcc.gnu.org/onlinedocs/gcc-3.0.1/cpp_4.html
 
-See ya'
+Stuff:
+
+  https://www.youtube.com/watch?v=n16aTmlqgIU
