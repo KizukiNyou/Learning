@@ -1,17 +1,26 @@
 # Learning
+  Just a bunch of useful resources.
 
-Plataforms:
-  
-  https://ead.inf.ufg.br/course/index.php?categoryid=9
-  
-  https://sharif.inf.ufg.br/plinio
-  
-  http://codeforces.com/
+## Learning websites:
 
-Useful links:
+  https://stackoverflow.com/
+  
+  https://towardsdatascience.com/
+  
+  https://www.geeksforgeeks.org/
+  
+  https://realpython.com/
+  
+## Style Guide:
+  
+  https://www.python.org/dev/peps/pep-0008/
+  
+## Documentation:
+  
+  https://www.python.org/doc/
   
   https://gcc.gnu.org/onlinedocs/gcc-3.0.1/cpp_4.html
 
-Stuff:
+## Stuff:
 
   https://www.youtube.com/watch?v=n16aTmlqgIU
