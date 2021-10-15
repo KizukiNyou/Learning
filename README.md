@@ -21,6 +21,8 @@ Currently organizing my files and moving them to github.
   https://www.python.org/doc/
   
   https://gcc.gnu.org/onlinedocs/gcc-3.0.1/cpp_4.html
+  
+  https://docs.oracle.com/en/java/
 
 ## Stuff:
 
