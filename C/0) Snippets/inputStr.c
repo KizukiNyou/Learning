@@ -1,4 +1,4 @@
-void inputS(char* buffer){
+void inputStr(char* buffer){
 	char *p;
 
 	fgets(buffer, BUFFER_SIZE, stdin);
