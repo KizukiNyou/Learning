@@ -1,5 +1,6 @@
-# Learning
-Just a bunch of useful resources.
+# Overview
+Some useful resources.
+
 Currently organizing my files and moving them to github.
 
 ## Learning websites:
