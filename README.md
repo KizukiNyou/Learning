@@ -13,6 +13,8 @@ Currently organizing my files and moving them to github.
   
   https://realpython.com/
   
+  https://www.python-course.eu/
+  
 ## Style Guide:
   
   https://www.python.org/dev/peps/pep-0008/
