@@ -30,18 +30,23 @@ def main():
 
     # Since I'm not using default_value() more than once,
     # I could also achieve the same effect using an anonymous function
-    def_dict_2 = defaultdict(int)
+    def_dict_2 = defaultdict(lambda: 0)
+
+    # Or the int function
+    def_dict_int = defaultdict(int)
 
     # Same code as before, but using defaultdict
     for number in number_list:
         def_dict[number] += 1
         def_dict_2[number] += 1
+        def_dict_int[number] += 1
 
     # I'm converting them to dict for merely aesthetic reasons (better print)
     print('def_dict:', dict(def_dict))
     print('def_dict_2:', dict(def_dict_2))
+    print('def_dict_int:', dict(def_dict_int))
 
-    # We could achieve the same result using the class Counter
+    # We could also achieve the same result using the Counter class
     from collections import Counter
 
     cont = Counter(number_list)
