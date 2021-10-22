@@ -48,4 +48,5 @@
 
 # \_\_eq\_\_
 `my_obj1 == my_obj2`
+* Implements the "is" operator
 * Implements the "==" operator
