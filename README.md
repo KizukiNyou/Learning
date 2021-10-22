@@ -18,6 +18,8 @@ Currently organizing my files and moving them to github.
 ## Style Guide:
   
   https://www.python.org/dev/peps/pep-0008/
+  https://google.github.io/styleguide/javaguide.html
+  https://www.oracle.com/technetwork/java/codeconventions-150003.pdf
   
 ## Documentation:
   
