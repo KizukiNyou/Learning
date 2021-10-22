@@ -1,94 +1,38 @@
     d1_init:
-# used to create an instance of the class
-
-# the instance variables are defined inside init()
-
-# Sources:
 # https://www.section.io/engineering-education/dunder-methods-python/#3-prerequisites
 
 --------------------------------------------------------------------------------------------------
     d2_repr:
-# "__repr__ is for developers, __str__ is for customers."
-
-# repr(): goal is to be unambiguous
-
-# implementation is required
-# every object you implement should have a functional repr() implementation that is
-# usable for better understanding the object
-
-# if __repr__ is defined, and __str__ is not, the object will behave as though __str__ = __repr__
-
-# template: "MyClass(this=%r,that=%r)" % (self.this,self.that)
-# you need to use %r here. Using %s defeats the goal of repr.
-# you want to be able to differentiate MyClass(3) and MyClass("3")
-
-# "this is everything you need to know about this instance"
-
-# Sources:
 # https://stackoverflow.com/questions/1436703/what-is-the-difference-between-str-and-repr
 # https://docs.python.org/3/reference/datamodel.html#object.__repr__
 # https://stackoverflow.com/questions/38418070/what-does-r-do-in-str-and-repr
 
 --------------------------------------------------------------------------------------------------
     d3_str:
-# "__repr__ is for developers, __str__ is for customers."
-
-# str(): goal is to be readable
-# the goal is to represent it in a way that a user, not a programmer, would want to read it.
-# chop off useless digits, pretend to be some other class — as long is it supports readability,
-# it is an improvement.
-
-# implementation is optional
-# mplement __str__ if you think it would be useful to have a string version which errs on the
-# side of readability.
-
-# Container's __str__ method uses contained object's __repr__
-
-# if __repr__ is defined, and __str__ is not, the object will behave as though __str__=__repr__
-# print() function calls __str__ method (if defined) else calls __repr__
-
-# Sources:
 # https://stackoverflow.com/questions/1436703/what-is-the-difference-between-str-and-repr
 # https://docs.python.org/3/reference/datamodel.html#object.__str__
 
 --------------------------------------------------------------------------------------------------
     d4_iter
-
-# Sources:
 # https://docs.python.org/3/glossary.html#term-iterable
 # https://docs.python.org/3/library/stdtypes.html#typeiter
 # https://stackoverflow.com/questions/9884132/what-exactly-are-iterator-iterable-and-iteration
 
 --------------------------------------------------------------------------------------------------
     d5_next
-
-# Sources:
-
+    
 --------------------------------------------------------------------------------------------------
     d6_setitem
-# when assigning values in a dictionary, the setitem method is invoked.
-
-# Sources:
 # https://www.section.io/engineering-education/dunder-methods-python/#63-setitem
 
 --------------------------------------------------------------------------------------------------
     d7_getitem
-# the getitem method is called when we use the [] operator of a dictionary
-
-# Sources:
 # https://www.section.io/engineering-education/dunder-methods-python/#64-getitem
 
 --------------------------------------------------------------------------------------------------
     d8_len
-# returns the lenght of the object
-
-# Sources:
 # https://www.section.io/engineering-education/dunder-methods-python/#66-len
 
 --------------------------------------------------------------------------------------------------
     d9_contains
-# the contains method is used when using the in operator
-# the return value has to be a boolean
-
-# Sources:
 # https://www.section.io/engineering-education/dunder-methods-python/#67-contains
